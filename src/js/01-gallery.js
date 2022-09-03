@@ -20,7 +20,7 @@ function createGalleryImages(images) {
 }
 
 const addGalleryItems = createGalleryImages(galleryItems);
-// galleryDiv.innerHTML = addGalleryItems;
+
 function blockStandartAction(event) {
   event.preventDefault();
 }
