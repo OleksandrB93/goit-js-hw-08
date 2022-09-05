@@ -11,7 +11,7 @@ filterForm.addEventListener('submit', evt => {
   evt.preventDefault();
   const formData = new FormData(filterForm);
   localStorage.clear(LOCALSTORAGE_KEY);
-  filterForm.submit();
+  filterForm.reset();
   formData.forEach((value, name) => console.log(value, name));
 });
 
